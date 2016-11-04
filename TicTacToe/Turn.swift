@@ -6,7 +6,7 @@
 //  Copyright © 2016 Make school. All rights reserved.
 //
 
-enum Turn {
-    case X
-    case O
+enum Turn: String {
+    case X = "X"
+    case O = "O"
 }

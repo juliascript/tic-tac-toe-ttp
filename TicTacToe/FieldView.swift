@@ -14,7 +14,9 @@ protocol FieldViewDelegate: class{
 
 class FieldView: UILabel {
     
-    weak var fieldDelegate: FieldViewDelegate?
+    weak var delegate: FieldViewDelegate?
+    
+//    weak var fieldDelegate: FieldViewDelegate?
     
     var coordinate: CGPoint = CGPoint.init(x: 0, y: 0)
     
@@ -36,7 +38,7 @@ class FieldView: UILabel {
     }
     
     func tapRecognized(){
-        fieldDelegate?.fieldViewTapped(sender: self)
+        delegate?.fieldViewTapped(sender: self)
     }
     
     
