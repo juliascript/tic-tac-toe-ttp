@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33186151DCC1B6700A23022 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33186141DCC1B6700A23022 /* Turn.swift */; };
+		A371B3651DCA5FE300EC0ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B3641DCA5FE300EC0ECC /* AppDelegate.swift */; };
+		A371B3671DCA5FE300EC0ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B3661DCA5FE300EC0ECC /* ViewController.swift */; };
+		A371B36A1DCA5FE300EC0ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A371B3681DCA5FE300EC0ECC /* Main.storyboard */; };
+		A371B36C1DCA5FE300EC0ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A371B36B1DCA5FE300EC0ECC /* Assets.xcassets */; };
+		A371B36F1DCA5FE300EC0ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A371B36D1DCA5FE300EC0ECC /* LaunchScreen.storyboard */; };
+		A371B37C1DCA670B00EC0ECC /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B37B1DCA670B00EC0ECC /* Board.swift */; };
+		A371B3801DCA672100EC0ECC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B37F1DCA672100EC0ECC /* BoardView.swift */; };
+		A371B3821DCA672B00EC0ECC /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B3811DCA672B00EC0ECC /* FieldView.swift */; };
+		A371B3841DCA6BF100EC0ECC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B3831DCA6BF000EC0ECC /* State.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A33186141DCC1B6700A23022 /* Turn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		A371B3611DCA5FE300EC0ECC /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A371B3641DCA5FE300EC0ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A371B3661DCA5FE300EC0ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A371B3691DCA5FE300EC0ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A371B36B1DCA5FE300EC0ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A371B36E1DCA5FE300EC0ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A371B3701DCA5FE300EC0ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A371B37B1DCA670B00EC0ECC /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		A371B37F1DCA672100EC0ECC /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		A371B3811DCA672B00EC0ECC /* FieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		A371B3831DCA6BF000EC0ECC /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A371B35E1DCA5FE200EC0ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A371B3581DCA5FE200EC0ECC = {
+			isa = PBXGroup;
+			children = (
+				A371B3631DCA5FE300EC0ECC /* TicTacToe */,
+				A371B3621DCA5FE300EC0ECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A371B3621DCA5FE300EC0ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A371B3611DCA5FE300EC0ECC /* TicTacToe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A371B3631DCA5FE300EC0ECC /* TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				A371B3791DCA66D500EC0ECC /* Model */,
+				A371B3781DCA66CA00EC0ECC /* View */,
+				A371B37A1DCA66DB00EC0ECC /* Controller */,
+				A371B3681DCA5FE300EC0ECC /* Main.storyboard */,
+				A371B36D1DCA5FE300EC0ECC /* LaunchScreen.storyboard */,
+				A371B36B1DCA5FE300EC0ECC /* Assets.xcassets */,
+				A371B3641DCA5FE300EC0ECC /* AppDelegate.swift */,
+				A371B3701DCA5FE300EC0ECC /* Info.plist */,
+			);
+			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		A371B3781DCA66CA00EC0ECC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A371B37F1DCA672100EC0ECC /* BoardView.swift */,
+				A371B3811DCA672B00EC0ECC /* FieldView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A371B3791DCA66D500EC0ECC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A371B37B1DCA670B00EC0ECC /* Board.swift */,
+				A371B3831DCA6BF000EC0ECC /* State.swift */,
+				A33186141DCC1B6700A23022 /* Turn.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A371B37A1DCA66DB00EC0ECC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A371B3661DCA5FE300EC0ECC /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A371B3601DCA5FE200EC0ECC /* TicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A371B3731DCA5FE300EC0ECC /* Build configuration list for PBXNativeTarget "TicTacToe" */;
+			buildPhases = (
+				A371B35D1DCA5FE200EC0ECC /* Sources */,
+				A371B35E1DCA5FE200EC0ECC /* Frameworks */,
+				A371B35F1DCA5FE200EC0ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToe;
+			productName = TicTacToe;
+			productReference = A371B3611DCA5FE300EC0ECC /* TicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A371B3591DCA5FE200EC0ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Make school";
+				TargetAttributes = {
+					A371B3601DCA5FE200EC0ECC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4BCG7FP966;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A371B35C1DCA5FE200EC0ECC /* Build configuration list for PBXProject "TicTacToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A371B3581DCA5FE200EC0ECC;
+			productRefGroup = A371B3621DCA5FE300EC0ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A371B3601DCA5FE200EC0ECC /* TicTacToe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A371B35F1DCA5FE200EC0ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A371B36F1DCA5FE300EC0ECC /* LaunchScreen.storyboard in Resources */,
+				A371B36C1DCA5FE300EC0ECC /* Assets.xcassets in Resources */,
+				A371B36A1DCA5FE300EC0ECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A371B35D1DCA5FE200EC0ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A371B3671DCA5FE300EC0ECC /* ViewController.swift in Sources */,
+				A371B3821DCA672B00EC0ECC /* FieldView.swift in Sources */,
+				A371B3651DCA5FE300EC0ECC /* AppDelegate.swift in Sources */,
+				A371B3801DCA672100EC0ECC /* BoardView.swift in Sources */,
+				A371B3841DCA6BF100EC0ECC /* State.swift in Sources */,
+				A371B37C1DCA670B00EC0ECC /* Board.swift in Sources */,
+				A33186151DCC1B6700A23022 /* Turn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A371B3681DCA5FE300EC0ECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A371B3691DCA5FE300EC0ECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A371B36D1DCA5FE300EC0ECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A371B36E1DCA5FE300EC0ECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A371B3711DCA5FE300EC0ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A371B3721DCA5FE300EC0ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A371B3741DCA5FE300EC0ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BCG7FP966;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.TicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A371B3751DCA5FE300EC0ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BCG7FP966;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.TicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A371B35C1DCA5FE200EC0ECC /* Build configuration list for PBXProject "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A371B3711DCA5FE300EC0ECC /* Debug */,
+				A371B3721DCA5FE300EC0ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A371B3731DCA5FE300EC0ECC /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A371B3741DCA5FE300EC0ECC /* Debug */,
+				A371B3751DCA5FE300EC0ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A371B3591DCA5FE200EC0ECC /* Project object */;
+}
