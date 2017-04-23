@@ -36,4 +36,17 @@ class Board: NSObject {
         board[row][column] = state
     }
     
+    func isFull() -> Bool {
+        
+        for row in board{
+            for j in 0..<(row.count){
+                if row[j] == .empty {
+                    return false
+                }
+            }
+        }
+        
+        return true
+    }
+    
 }

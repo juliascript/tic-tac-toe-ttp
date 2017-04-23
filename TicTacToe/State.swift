@@ -9,5 +9,5 @@
 enum State: String{
     case X = "X"
     case O = "O"
-    case empty //= ""
+    case empty = "-"
 }

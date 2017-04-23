@@ -16,8 +16,6 @@ class FieldView: UILabel {
     
     weak var delegate: FieldViewDelegate?
     
-//    weak var fieldDelegate: FieldViewDelegate?
-    
     var coordinate: CGPoint = CGPoint.init(x: 0, y: 0)
     
     required init?(coder aDecoder: NSCoder) {
